@@ -1,0 +1,14 @@
+PODS:
+  - TOMSWaveView (0.0.1)
+
+DEPENDENCIES:
+  - TOMSWaveView (from `../TOMSWaveView.podspec`)
+
+EXTERNAL SOURCES:
+  TOMSWaveView:
+    :path: ../TOMSWaveView.podspec
+
+SPEC CHECKSUMS:
+  TOMSWaveView: 7df101e7d3dbd55e06cc671ba569a03fc5ce8d2c
+
+COCOAPODS: 0.34.4

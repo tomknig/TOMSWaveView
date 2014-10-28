@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="HPq-p4-p7F">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="alZ-yj-rLl">
+            <objects>
+                <viewController id="HPq-p4-p7F" customClass="TOMSViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="knn-e0-gwU"/>
+                        <viewControllerLayoutGuide type="bottom" id="WO3-cb-O8e"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="20G-gi-mfQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b2f-8a-mMF" customClass="TOMSWaveView">
+                                <rect key="frame" x="0.0" y="240" width="600" height="120"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="w8r-94-Qh7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="b2f-8a-mMF" secondAttribute="trailing" id="dy6-4b-Uim"/>
+                            <constraint firstAttribute="centerY" secondItem="b2f-8a-mMF" secondAttribute="centerY" id="m1H-kd-Eik"/>
+                            <constraint firstItem="b2f-8a-mMF" firstAttribute="leading" secondItem="20G-gi-mfQ" secondAttribute="leading" id="woE-3R-iMf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="waveView" destination="b2f-8a-mMF" id="EAQ-SR-MHV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Qr-NJ-iHb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="293" y="397"/>
+        </scene>
+    </scenes>
+</document>
