@@ -5,7 +5,7 @@ A siri like visualization of a single numeric input.
 
 ## Installation with CocoaPods
 
-TOMSMorphingLabel is available through [CocoaPods](http://cocoapods.org). To install
+TOMSWaveView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 #### Podfile
@@ -43,28 +43,8 @@ Implement `-(float)valueForWaveView:(TOMSWaveView *)waveView` within that object
 
 ## Customization
 
-TOMSMorphingLabel provides the possibility to configure the look and feel.
-The configureable properties are defined as follows:
-
-<table>
-  <caption>configureable properties</caption>
-  <tr>
-    <td><tt>animationDuration: CGFloat</tt></td>
-    <td>Time that elapses between the setting of a new text value and the end of the morphing transition. Default: 0.37</td>
-  </tr>
-  <tr>
-    <td><tt>characterAnimationOffset: CGFloat</tt></td>
-    <td>Spatial propagation speed of the character shrink and alpha effect. Default: 0.25</td>
-  </tr>
-  <tr>
-    <td><tt>characterShrinkFactor: CGFloat</tt></td>
-    <td>Factor that the scale of a completely disappeared character is divided by. Default: 4</td>
-  </tr>
-  <tr>
-    <td><tt>morphingEnabled: BOOL</tt></td>
-    <td>Defines whether the morphing transition between text values is enabled. Default: YES</td>
-  </tr>
-</table>
+TOMSWaveView provides the possibility to configure the look and feel.
+The configureable properties will be documented in future.
 
 ## Changelog
 
