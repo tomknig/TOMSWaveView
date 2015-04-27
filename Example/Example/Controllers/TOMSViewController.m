@@ -19,6 +19,8 @@
 {
     [super viewDidLoad];
     
+    self.waveView.backgroundColor = [UIColor whiteColor];
+    self.waveView.waveColor = [UIColor blackColor];
     self.waveView.dataSource = self;
 }
 

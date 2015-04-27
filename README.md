@@ -48,6 +48,9 @@ The configureable properties will be documented in future.
 
 ## Changelog
 
+#### 0.1.1
+* support custom wave color
+
 #### 0.1.0
 * initial version
 
